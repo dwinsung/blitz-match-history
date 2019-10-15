@@ -12,7 +12,4 @@ defmodule BlitzMatchHistory do
       :world
 
   """
-  def hello do
-    RiotGames.get
-  end
 end
