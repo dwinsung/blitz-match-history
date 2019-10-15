@@ -1,6 +1,6 @@
 # BlitzMatchHistory
 
-**Open Command Prompt and cd to wherever the downloaded blitz_match_history folder  is located**
+**Open Command Prompt, cd to wherever the downloaded blitz_match_history folder  is located, compile the iex, and run RiotGames.find_recently_played_with**
 
 #### Introduction
 This project's main function in module RiotGames find_recently_played_with(name); this function given a summoner name, finds the 5 most recent matches played by said summoner, as well as those who played with the input summoner and their respective recent 5 matches in those 5 games, outputted in a list that is organized by player (matches organized by most recent to least recent).
@@ -20,7 +20,7 @@ Secondly, I do think with more HTTPoison/Elixir experience, I could've made this
 
 Thirdly, I coded this with the assumption that Blitz would be using a normal API key (one that is rate limited), so this definitely played a decent portion in how I ran my code timing-wise. That being said, Please read the code comments, as I made functions that both tested for whether a player is in a current match or has recently finished a recent match.
 
-All in all, really enjoyed pushing and debugging; let me know if this runs poorly on Windows; I know my system had issues with the SSL version, but seems to run fine on a Mac.
+All in all, really enjoyed pushing and debugging; let me know if this runs poorly on Windows; I know my system had issues with the SSL version, but seems to run fine on a Mac. I would've liked to continue to automate this further for user experience purposes/test cases, but this is all the time I've had given work commitments.
 
 
 ## Installation
