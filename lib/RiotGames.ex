@@ -238,7 +238,7 @@ defmodule RiotGames do
     ## made api a universal variable since prompt asked for only name as a parameter, can alter this
     ## also assumed a universal API key, otherwise, will have to update riot api key as needed
     ## accounted for different test cases, but API key MUST be correct or this script will error out.
-        api_key="RGAPI-e5410295-e92e-46ec-b831-b70e7966a686"
+        api_key=""
         ##gets account ID and info of summoner
         account_ID=get_summoner_accountID(name,api_key)
         summ_info = get_summoner_info(account_ID,api_key)
